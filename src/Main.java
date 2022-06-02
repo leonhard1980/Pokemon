@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        /*
+            Deze opdracht is gemaakt door LdP en bestaat uit:
+            1 Main class met 4 geinstantieerde Pokemon-objecten vanuit de subclass en één generiek object.
+            De Pokemon Superclass heeft 4 variabelen en 2 methoden, waarvan één overschreden wordt door alle subclasses.
+            De subclasses hebben vier unieke variabelen en 2 methoden, die beiden worden aangeroepen in de Main-class.*/
+
 
         Pokemon water = new Water ("Water", 34, "blue", "slijmen", 34, 23, 56, 51);
         Pokemon grass = new Grass ("Grass", 16, "green", "smoken", 88, "none", "natural", "only when the sun is out");
